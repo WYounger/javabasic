@@ -69,7 +69,7 @@ public class Test {
     }
 
     static List<A> getImport() {
-        List<A> list = new ArrayList<>();
+        List<A> list = new ArrayList<>(16);
         list.add(A.builder().colValues(Arrays.asList(new String[]{"other2", "other10", "other11"})).name("test").build());
         list.add(A.builder().colValues(Arrays.asList(new String[]{"other2", "other5", "other7", "other8"})).name("test").build());
         list.add(A.builder().colValues(Arrays.asList(new String[]{"other3"})).name("test").build());
