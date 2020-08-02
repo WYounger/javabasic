@@ -73,7 +73,6 @@ public class Test {
         list.add(A.builder().colValues(Arrays.asList(new String[]{"other2", "other10", "other11"})).name("test").build());
         list.add(A.builder().colValues(Arrays.asList(new String[]{"other2", "other5", "other7", "other8"})).name("test").build());
         list.add(A.builder().colValues(Arrays.asList(new String[]{"other3"})).name("test").build());
-
         return list;
     }
 
